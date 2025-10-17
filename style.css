@@ -139,8 +139,12 @@ nav ul li{
     cursor: pointer;
 }
 .Button-container1{
-    display: flex;
-    justify-content: center;
+   display: flex;
+    font-size:15px;
+    border-radius: 20px;
+    background-color: gray;
+      cursor: pointer;
+    
     
 }
 
@@ -227,4 +231,5 @@ strong{
 }
 .comments-live button:hover{
     background-color: orange;
+
 }
