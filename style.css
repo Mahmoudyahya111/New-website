@@ -133,19 +133,21 @@ nav ul li{
 }
 
 .first-button{
+    display: flex;
     height: 20px;
     border-radius: 6px;
     background-color: gray;
     cursor: pointer;
+    width: 100px;
+    justify-content: center;
+    
 }
 .Button-container1{
-   display: flex;
+     display: flex;
     font-size:15px;
     border-radius: 20px;
     background-color: gray;
       cursor: pointer;
-    
-    
 }
 
 .first-button:hover {
@@ -233,3 +235,4 @@ strong{
     background-color: orange;
 
 }
+
